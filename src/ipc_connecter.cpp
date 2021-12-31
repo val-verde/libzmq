@@ -43,7 +43,7 @@
 #include "ipc_address.hpp"
 #include "session_base.hpp"
 
-#ifdef _MSC_VER
+#ifdef _WIN32
 #include <afunix.h>
 #else
 #include <unistd.h>

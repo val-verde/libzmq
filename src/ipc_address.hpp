@@ -34,7 +34,7 @@
 
 #include <string>
 
-#if defined _MSC_VER
+#if defined _WIN32
 #include <afunix.h>
 #else
 #include <sys/socket.h>
