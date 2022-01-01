@@ -36,6 +36,7 @@
 #include "macros.hpp"
 #include "stdint.hpp"
 #include "platform.hpp"
+#include "select.hpp"
 #include "err.hpp"
 
 namespace zmq
